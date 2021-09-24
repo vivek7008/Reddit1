@@ -15,11 +15,13 @@ const r = new snoowrap({
   clientId: 'y0BuNnmycbQe-DLy3arWug',
   clientSecret: '	OHS7racZqCoShfAwACDGoEvREVX3kg',
   refreshToken: '1139991457823-xCSDimBNAOSyhpmZb_OKivQXvj7ISA',
+  
+  accessToken:'1139991457823-yFlBpY2OVCBsS_hZroHXHia9xUj05w',
  
 });
-
-r.getHot().map(post => post.title).then(console.log);
 r.config({ debug: true });
+r.getHot().map(post => post.title).then(console.log);
+
 
 </script>
 
